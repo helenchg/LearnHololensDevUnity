@@ -1,5 +1,5 @@
 # LearnUnity
-I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today.
+I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
 
 
  ## 3. VoiceRecognition100 - Unity2019.2.8f1
