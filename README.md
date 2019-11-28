@@ -7,7 +7,7 @@ This project allows you to control the 3D character by using voice input. You ca
 
 Download 3D characters and animations from https://www.mixamo.com/ You need an Adobe account to do so.
 Followed this voice recognition tutorial on youtube. https://www.youtube.com/watch?v=29vyEOgsW8s&t=319s
-Added a 3D character and animation to the project. Learned about animation control for characters here: https://www.youtube.com/watch?v=q-FPR1I2B74
+Added a 3D character and animation to the project. Learned about animation control for characters here: https://www.youtube.com/watch?v=q-FPR1I2B74 & https://www.youtube.com/watch?v=BEIaakl9vJE
 Extracted the character skin by following this tutorial: https://www.youtube.com/watch?v=P4PrO8fHZ4E 
 I combined what voice and animation control together by replacing keyboard input for voice input.
 
