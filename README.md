@@ -1,6 +1,9 @@
 # Learn AR (Hololens) Development in Unity
 I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
 
+## 5. Getting started with MixedRealityToolKit v2.
+At first, I found the github repo for the MRTK https://github.com/microsoft/MixedRealityToolkit-Unity, but did not know how to use it. This tutorial is a good place to start http://unicodeexception.com/2019/02/start-mixedrealitytoolkit-v2/. We actually have to download the entire repo, open it in unity, and then export it again as a unitypackage. This way, every time I start a new project, I can just import the MRTK unity package. 
+
 ## 4. NavMesh101 - Unity2019.3.0f1
 This project is about learning how to use Unity NavMesh Components. I literally just followed Brackeys video tutorials and downloaded his assets. I created a new 3D project using Unity2019.3.0f1 and dragged the entire NavMesh-Tutorial downloaded from github at: https://github.com/Brackeys/NavMesh-Tutorial
 Thanks to this tutorial, I discovered that Unity has a ThirdPersonCharacter scripts that does the animation for navigation automatically, but this is only for a humanoid avatar. For my thesis, I will have to figure out how to modify everything for a non-humanoid agent. These set of video tutorials are really great, now I just need to figure out how to use Hololens Spatial Mapping and combine it with Unity NavMeshComponents https://github.com/Unity-Technologies/NavMeshComponents. FYI, the NavMesh-Tutorial folder already has the Unity NavMeshComponents imported.
