@@ -4,7 +4,9 @@ I am documenting everything I learn about Unity in this repository. I have start
 ## 4. NavMesh101 - Unity2019.3.0f1
 This project is about learning how to use Unity NavMesh Components. I literally just followed Brackeys video tutorials and downloaded his assets. I created a new 3D project using Unity2019.3.0f1 and dragged the entire NavMesh-Tutorial downloaded from github at: https://github.com/Brackeys/NavMesh-Tutorial
 Thanks to this tutorial, I discovered that Unity has a ThirdPersonCharacter scripts that does the animation for navigation automatically, but this is only for a humanoid avatar. For my thesis, I will have to figure out how to modify everything for a non-humanoid agent. These set of video tutorials are really great, now I just need to figure out how to use Hololens Spatial Mapping and combine it with Unity NavMeshComponents https://github.com/Unity-Technologies/NavMeshComponents. FYI, the NavMesh-Tutorial folder already has the Unity NavMeshComponents imported.
-Alright, if you want to dive deeper on NavMesh, check this six-part tutorial by Unity https://www.youtube.com/playlist?list=PLX2vGYjWbI0Rf0im34I2lBF4eufM-cgzQ (quite long and more advanced, you will definitely understand it if you did the previous tutorial by Brackeys.)
+Alright, if you want to dive deeper on NavMesh, check this six-part tutorial by Unity https://www.youtube.com/playlist?list=PLX2vGYjWbI0Rf0im34I2lBF4eufM-cgzQ (quite long and more advanced, you will definitely understand it if you did the previous tutorial by Brackeys.) Everything related to the navMeshAgent (agent navigation) is in the UnityEngine.AI namespace. Tutorial #3 talks about a drone, which is technically non-humanoid. They did not animate it though. Also, the scene is so dark, you can barely see the drone moving.
+
+I wonder much large of a navMesh can the hololens handle...
 
 ## 3. VoiceRecognition100 - Unity2019.2.8f1
 This project allows you to control the 3D character by using voice input. You can command it to "dance", "stop", move the character "upward", "back", "forward", and "down".
