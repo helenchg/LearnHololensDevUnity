@@ -1,15 +1,17 @@
-# LearnUnity
+# Learn AR (Hololens) Development in Unity
 I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
 TODO: HoloLens Spatial Mapping + NavMesh at Runtime. Found this blog post in Japanese. Not the best, but will take a closer look later. https://tarukosu.hatenablog.com/entry/2017/04/23/183546 
+
+FYI: The first few Hololens related tutorials were probably using scripts from the deprecated holokit sdk. The newest SDK right now is the Mixed Reality Tool Kit V2 (https://github.com/microsoft/MixedRealityToolkit-Unity) and Azure Cloud Services (cognitive services).
 
 ## 4. NavMesh101 - Unity2019.3.0f1
 This project is about learning how to use Unity NavMesh Components. I literally just followed Brackeys video tutorials and downloaded his assets. I created a new 3D project using Unity2019.3.0f1 and dragged the entire NavMesh-Tutorial downloaded from github at: https://github.com/Brackeys/NavMesh-Tutorial
 Thanks to this tutorial, I discovered that Unity has a ThirdPersonCharacter scripts that does the animation for navigation automatically, but this is only for a humanoid avatar. For my thesis, I will have to figure out how to modify everything for a non-humanoid agent. These set of video tutorials are really great, now I just need to figure out how to use Hololens Spatial Mapping and combine it with Unity NavMeshComponents https://github.com/Unity-Technologies/NavMeshComponents. FYI, the NavMesh-Tutorial folder already has the Unity NavMeshComponents imported.
 Alright, if you want to dive deeper on NavMesh, check this six-part tutorial by Unity https://www.youtube.com/playlist?list=PLX2vGYjWbI0Rf0im34I2lBF4eufM-cgzQ (quite long and more advanced, you will definitely understand it if you did the previous tutorial by Brackeys.) Everything related to the navMeshAgent (agent navigation) is in the UnityEngine.AI namespace. Tutorial #3 talks about a drone, which is technically non-humanoid. They did not animate it though. Also, the scene is so dark, you can barely see the drone moving.
 
-I wonder much large of a navMesh can the hololens handle...
+I wonder much large of a navMesh can the hololens 1 handle...
 
-## 3. VoiceRecognition100 - Unity2019.2.8f1
+## 3. VoiceRecognition100 - Unity2019.2.8f1 (HoloKit)
 This project allows you to control the 3D character by using voice input. You can command it to "dance", "stop", move the character "upward", "back", "forward", and "down".
 
 Download 3D characters and animations from https://www.mixamo.com/ You need an Adobe account to do so.
@@ -19,7 +21,7 @@ Extracted the character skin by following this tutorial: https://www.youtube.com
 I combined what voice and animation control together by replacing keyboard input for voice input.
 
   
-## 2. MRBasics - Unity2019.2.8f1
+## 2. MRBasics - Unity2019.2.8f1 (HoloKit)
 This is basically tutorial MR Basics 101. https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-101
 We did basic animation, voice command, sound, gaze. 
 
@@ -27,7 +29,7 @@ We did basic animation, voice command, sound, gaze.
 I could not get spatial mapping to work on Unity2019.2.8f1. Seems like two scripts were missing for the spatialmapping function. I tried the Unity XR components "Spatial Mapping Collider (Script)" and "Spatial Mapping Renderer (Script)" instead. I was able to view the mesh using the SMR, but couldnt actually get the collider to work. Thus, I failed to do the TapToPlace section. Everything else worked fine. Will dedicate an entire project for learning spatial mapping and reasoning later since this is important.
 
 
-## 1. MRBasics100 - Unity2019.2.8f1
+## 1. MRBasics100 - Unity2019.2.8f1 (HoloKit)
 This is the first tutorial I followed to develop on the Hololens 1. https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100
 Basically, I setup my Unity (Windows10) to remote into the Hololens1, so every time I hit the play button, I can see the result on the hololens. This is definitely a MUST tutorial if you are starting to prototype using a hololens device. You will literally use what you learned here in every hololens project.
 
