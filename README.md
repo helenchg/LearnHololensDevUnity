@@ -1,5 +1,6 @@
 # LearnUnity
 I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
+TODO: HoloLens Spatial Mapping + NavMesh at Runtime. Found this blog post in Japanese. Not the best, but will take a closer look later. https://tarukosu.hatenablog.com/entry/2017/04/23/183546 
 
 ## 4. NavMesh101 - Unity2019.3.0f1
 This project is about learning how to use Unity NavMesh Components. I literally just followed Brackeys video tutorials and downloaded his assets. I created a new 3D project using Unity2019.3.0f1 and dragged the entire NavMesh-Tutorial downloaded from github at: https://github.com/Brackeys/NavMesh-Tutorial
