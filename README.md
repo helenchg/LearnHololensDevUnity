@@ -1,5 +1,5 @@
 # LearnUnity
-I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today.
+I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
 
 
  ## 3. VoiceRecognition100 - Unity2019.2.8f1
@@ -7,7 +7,7 @@ This project allows you to control the 3D character by using voice input. You ca
 
 Download 3D characters and animations from https://www.mixamo.com/ You need an Adobe account to do so.
 Followed this voice recognition tutorial on youtube. https://www.youtube.com/watch?v=29vyEOgsW8s&t=319s
-Added a 3D character and animation to the project. Learned about animation control for characters here: https://www.youtube.com/watch?v=q-FPR1I2B74
+Added a 3D character and animation to the project. Learned about animation control for characters here: https://www.youtube.com/watch?v=q-FPR1I2B74 & https://www.youtube.com/watch?v=BEIaakl9vJE
 Extracted the character skin by following this tutorial: https://www.youtube.com/watch?v=P4PrO8fHZ4E 
 I combined what voice and animation control together by replacing keyboard input for voice input.
 
