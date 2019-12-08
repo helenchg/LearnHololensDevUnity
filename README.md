@@ -10,7 +10,7 @@ I was able to run the Spatial Mapping Nav Mesh example without compilation error
 https://github.com/drakep/MixedRealityToolkit-Unity/tree/CharlesCuteAnimalBranch
 
 
-## 5. MixedRealityToolkit-Unity - Unity2017.4.34f1 (HoloToolkit 2017.4 release)
+## 5. SpatialMappingAgent - Unity2017.4.34f1 (HoloToolkit 2017.4 release)
 I spent the last few days playing around and familiarizing with spatial mapping and the HTK SDK from 2017. I will leave the MRTK2 SDK for later. I have made several attempts at generating NavMesh at runtime using the Spatial Mapping meshes, and this project is the first attempt. I tried to follow these Japanese tutorials by translating it to English https://qiita.com/morio36/items/d75228d2ccdb9c24574b and https://tarukosu.hatenablog.com/entry/2017/04/23/183546. 
 - [Failure] The version they used seem to be older release. Some of the code snipets got removed in mine, so I could not technically follow what they did.
 - [Success] I was able to still place an agent in the environment and use Air-tap gesture to define a new destination for it to move.
