@@ -4,6 +4,9 @@ I am documenting my learning in this repository. I started from zero again. Hope
 ## Getting started with MixedRealityToolKit v2.
 At first, I found the github repo for the MRTK https://github.com/microsoft/MixedRealityToolkit-Unity, but did not know how to use it. This tutorial is a good place to start http://unicodeexception.com/2019/02/start-mixedrealitytoolkit-v2/. We actually have to download the entire repo, open it in unity, and then export it again as a unitypackage. This way, every time I start a new project, I can just import the MRTK unity package. 
 
+## 7. BasicContextAwareAgent (HoloToolkit 2017.4 + Navmesh + Voice Input + Gesture) - Unity2017.4
+In this project, I am combining everything I have learned so far to build a basic context-aware agent that appears when called and navigate in the physical environment.
+
 ## 6. HTK_NavMesh_Agent (HoloToolkit 2017.4 + NavMesh) - Unity2017.4
 I found this repository that essentially implement NavMesh at runtime using spatial mapping from the Hololens using the HoloToolkit.
 I was able to run the Spatial Mapping Nav Mesh example without compilation error. I tried to reverse engineer this version to understand what he added on top of the hololens SDK. There are three main scripts in Spatial Mapping prefab that got modified: Spatial Mapping Manager, Spatial Mapping Observer, and Object Surface Observer. He also added a script to draw the NavMesh using the Spatial Mapping meshes at runtime. One issue I encountered was that the NavMesh is very restricted, it only showed a few open area for the agent to navigate. I need to figure out how to expand that to the entire spatial mapping environment. 
