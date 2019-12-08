@@ -18,10 +18,10 @@ public class drawNM : MonoBehaviour
     public float lastPlaceTime = 0;
 
     // Update is called once per frame
-//    void Update()
-//    {
+    void Update()
+    {
 
-//    }
+    }
     float totalMag;
     private Mesh mesh;
     IEnumerator drawNavMesh()

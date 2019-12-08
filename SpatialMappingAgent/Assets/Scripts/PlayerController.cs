@@ -8,13 +8,15 @@ public class PlayerController : MonoBehaviour
     public NavMeshAgent agent;
     public ThirdPersonCharacter character;
     
+    
     void Start()
     {
         cam = Camera.main;
         agent.updateRotation = false;
+
     }
-    // Update is called once per frame
-    void Update()
+                                                       // Update is called once per frame
+        void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
