@@ -1,8 +1,21 @@
 # Learn AR (Hololens) Development in Unity
 I am documenting everything I learn about Unity in this repository. I have started from scratch again. Hopefully this could be a rough guide for someone else who wants to pick it up today. This is not meant to be a step by step guide. 
 
-## 5. Getting started with MixedRealityToolKit v2.
+## Getting started with MixedRealityToolKit v2.
 At first, I found the github repo for the MRTK https://github.com/microsoft/MixedRealityToolkit-Unity, but did not know how to use it. This tutorial is a good place to start http://unicodeexception.com/2019/02/start-mixedrealitytoolkit-v2/. We actually have to download the entire repo, open it in unity, and then export it again as a unitypackage. This way, every time I start a new project, I can just import the MRTK unity package. 
+
+## 6. HTK_NavMesh_Agent (HoloToolkit 2017.4 + NavMesh) - Unity2017.4
+I found this repository that essentially implement NavMesh at runtime using spatial mapping from the Hololens using the HoloToolkit.
+I was able to run the Spatial Mapping Nav Mesh example without compilation error. I tried to reverse engineer this version to understand what he added on top of the hololens SDK. There are three main scripts in Spatial Mapping prefab that got modified: Spatial Mapping Manager, Spatial Mapping Observer, and Object Surface Observer. He also added a script to draw the NavMesh using the Spatial Mapping meshes at runtime. One issue I encountered was that the NavMesh is very restricted, it only showed a few open area for the agent to navigate. I need to figure out how to expand that to the entire spatial mapping environment. 
+https://github.com/drakep/MixedRealityToolkit-Unity/tree/CharlesCuteAnimalBranch
+
+
+## 5. MixedRealityToolkit-Unity - Unity2017.4.34f1 (HoloToolkit 2017.4 release)
+I spent the last few days playing around and familiarizing with spatial mapping and the HTK SDK from 2017. I will leave the MRTK2 SDK for later. I have made several attempts at generating NavMesh at runtime using the Spatial Mapping meshes, and this project is the first attempt. I tried to follow these Japanese tutorials by translating it to English https://qiita.com/morio36/items/d75228d2ccdb9c24574b and https://tarukosu.hatenablog.com/entry/2017/04/23/183546. 
+- [Failure] The version they used seem to be older release. Some of the code snipets got removed in mine, so I could not technically follow what they did.
+- [Success] I was able to still place an agent in the environment and use Air-tap gesture to define a new destination for it to move.
+It uses the spatial mapping mesh, I dont think the NavMesh is working.
+- Right now, the agent will move towards the place I air-tapped. Essentially, creating a temporary "waypoint" or destination.
 
 ## 4. NavMesh101 - Unity2019.3.0f1
 This project is about learning how to use Unity NavMesh Components. I literally just followed Brackeys video tutorials and downloaded his assets. I created a new 3D project using Unity2019.3.0f1 and dragged the entire NavMesh-Tutorial downloaded from github at: https://github.com/Brackeys/NavMesh-Tutorial
@@ -11,7 +24,7 @@ Alright, if you want to dive deeper on NavMesh, check this six-part tutorial by 
 
 I wonder much large of a navMesh can the hololens 1 handle...
 
-## 3. VoiceRecognition100 - Unity2019.2.8f1 (HoloKit)
+## 3. VoiceRecognition100 - Unity2019.2.8f1 (HoloToolkit)
 This project allows you to control the 3D character by using voice input. You can command it to "dance", "stop", move the character "upward", "back", "forward", and "down".
 
 Download 3D characters and animations from https://www.mixamo.com/ You need an Adobe account to do so.
@@ -21,7 +34,7 @@ Extracted the character skin by following this tutorial: https://www.youtube.com
 I combined what voice and animation control together by replacing keyboard input for voice input.
 
   
-## 2. MRBasics - Unity2019.2.8f1 (HoloKit)
+## 2. MRBasics - Unity2019.2.8f1 (HoloToolkit)
 This is basically tutorial MR Basics 101. https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-101
 We did basic animation, voice command, sound, gaze. 
 
@@ -29,7 +42,7 @@ We did basic animation, voice command, sound, gaze.
 I could not get spatial mapping to work on Unity2019.2.8f1. Seems like two scripts were missing for the spatialmapping function. I tried the Unity XR components "Spatial Mapping Collider (Script)" and "Spatial Mapping Renderer (Script)" instead. I was able to view the mesh using the SMR, but couldnt actually get the collider to work. Thus, I failed to do the TapToPlace section. Everything else worked fine. Will dedicate an entire project for learning spatial mapping and reasoning later since this is important.
 
 
-## 1. MRBasics100 - Unity2019.2.8f1 (HoloKit)
+## 1. MRBasics100 - Unity2019.2.8f1 (HoloToolkit)
 This is the first tutorial I followed to develop on the Hololens 1. https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100
 Basically, I setup my Unity (Windows10) to remote into the Hololens1, so every time I hit the play button, I can see the result on the hololens. This is definitely a MUST tutorial if you are starting to prototype using a hololens device. You will literally use what you learned here in every hololens project.
 
