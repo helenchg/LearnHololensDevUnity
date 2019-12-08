@@ -9,7 +9,7 @@ I found this repository that essentially implement NavMesh at runtime using spat
 I was able to run the Spatial Mapping Nav Mesh example without compilation error. I tried to reverse engineer this version to understand what he added on top of the hololens SDK. There are three main scripts in Spatial Mapping prefab that got modified: Spatial Mapping Manager, Spatial Mapping Observer, and Object Surface Observer. He also added a script to draw the NavMesh using the Spatial Mapping meshes at runtime. One issue I encountered was that the NavMesh is very restricted, it only showed a few open area for the agent to navigate. I need to figure out how to expand that to the entire spatial mapping environment. 
 https://github.com/drakep/MixedRealityToolkit-Unity/tree/CharlesCuteAnimalBranch
 
- Check out the project README.md to see results.
+ Check out the [project](https://github.com/helenchg/LearnHololensDevUnity/tree/master/HTK_NavMesh_Agent) README.md to see results.
 
 ## 5. SpatialMappingAgent - Unity2017.4.34f1 (HoloToolkit 2017.4 release)
 I spent the last few days playing around and familiarizing with spatial mapping and the HTK SDK from 2017. I will leave the MRTK2 SDK for later. I have made several attempts at generating NavMesh at runtime using the Spatial Mapping meshes, and this project is the first attempt. I tried to follow these Japanese tutorials by translating it to English https://qiita.com/morio36/items/d75228d2ccdb9c24574b and https://tarukosu.hatenablog.com/entry/2017/04/23/183546. 
@@ -18,7 +18,7 @@ I spent the last few days playing around and familiarizing with spatial mapping 
 It uses the spatial mapping mesh, I dont think the NavMesh is working.
 - Right now, the agent will move towards the place I air-tapped. Essentially, creating a temporary "waypoint" or destination.
 
- Check out the project README.md to see results.
+ Check out the [project](https://github.com/helenchg/LearnHololensDevUnity/tree/master/SpatialMappingAgent) README.md to see results.
 
 
 ## 4. NavMesh101 - Unity2019.3.0f1
