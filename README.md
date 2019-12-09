@@ -15,7 +15,8 @@ TODO:
 Stretch goals:
 - [ ] Agent animation matches action.
 - [ ] User use voice command to get agent to walk towards specific destination (Food Cam).
-
+- [ ] Agent looks at user (billboard script).
+- [ ] Agent tags along (tagAlong script).
 
 This is the project I am submitting for scifab. 
 
