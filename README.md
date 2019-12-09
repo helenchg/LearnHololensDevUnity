@@ -13,6 +13,8 @@ TODO:
 - [X] Agent appears with voice command
 - [X] Agent moves towards user with voice command
 - [X] User can air-tap destinations for the agent to move.
+
+
 Stretch goals:
 - [ ] Agent animation matches action.
 - [ ] User use voice command to get agent to walk towards specific destination.
