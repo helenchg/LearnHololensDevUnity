@@ -4,11 +4,25 @@ I am documenting my learning in this repository. I started from zero again. Hope
 ## Getting started with MixedRealityToolKit v2.
 At first, I found the github repo for the MRTK https://github.com/microsoft/MixedRealityToolkit-Unity, but did not know how to use it. This tutorial is a good place to start http://unicodeexception.com/2019/02/start-mixedrealitytoolkit-v2/. We actually have to download the entire repo, open it in unity, and then export it again as a unitypackage. This way, every time I start a new project, I can just import the MRTK unity package. 
 
-## 8. ModelExplorer (Holotoolkit) - Unity2017.4
+## 8. BasicContextAwareAgent (HoloToolkit 2017.4 + Navmesh + Voice Input + Gesture) - Unity2017.4
+In this project, I am combining everything I have learned so far to build a basic context-aware agent that appears when called and navigate in the physical environment. Currently, the agent can understand "Hey Jinn" and "Come back" voice commands. The Husky asset and  NavMesh is generated using the modified Spatial Mapping code from https://github.com/drakep/MixedRealityToolkit-Unity/tree/CharlesCuteAnimalBranch. 
+
+TODO:
+- [X] Generate NavMesh for agent to navigate in the physical environment
+- [X] Agent appears with voice command
+- [X] Agent moves towards user with voice command
+- [X] User can air-tap destinations for the agent to move.
+Stretch goals:
+- [ ] Agent animation matches action.
+- [ ] User use voice command to get agent to walk towards specific destination (Food Cam).
+
+
+This is the project I am submitting for scifab. 
+
+
+## 7. ModelExplorer (Holotoolkit) - Unity2017.4
 [MR Input 210-Gaze Tutorial](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-210) For some reason, Unity2019 projects are not building, so I started this project with Unity2017.4LTS. This is the tutorial from Microsoft https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-210. It took me forever to get through because many of the assets were missing and the videos dont match the actual instruction and required assets. Many of the scripts needed some kind of debugging. Learn about the billboard and tag-along scripts, which could be useful later on for my agent.
 
-## 7. BasicContextAwareAgent (HoloToolkit 2017.4 + Navmesh + Voice Input + Gesture) - Unity2017.4
-In this project, I am combining everything I have learned so far to build a basic context-aware agent that appears when called and navigate in the physical environment.
 
 ## 6. HTK_NavMesh_Agent (HoloToolkit 2017.4 + NavMesh) - Unity2017.4
 I found this repository that essentially implement NavMesh at runtime using spatial mapping from the Hololens using the HoloToolkit.
