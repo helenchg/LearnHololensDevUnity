@@ -6,6 +6,7 @@ At first, I found the github repo for the MRTK https://github.com/microsoft/Mixe
 
 ## 8. BasicContextAwareAgent (HoloToolkit 2017.4 + Navmesh + Voice Input + Gesture) - Unity2017.4
 In this project, I am combining everything I have learned so far to build a basic context-aware agent that appears when called and navigate in the physical environment. Currently, the agent can understand "Hey Jinn" and "Come back" voice commands. The Husky asset and  NavMesh is generated using the modified Spatial Mapping code from https://github.com/drakep/MixedRealityToolkit-Unity/tree/CharlesCuteAnimalBranch. 
+You can create a larger NavMesh by changing the agent humanoid property.
 
 TODO:
 - [X] Generate NavMesh for agent to navigate in the physical environment
@@ -14,11 +15,9 @@ TODO:
 - [X] User can air-tap destinations for the agent to move.
 Stretch goals:
 - [ ] Agent animation matches action.
-- [ ] User use voice command to get agent to walk towards specific destination (Food Cam).
+- [ ] User use voice command to get agent to walk towards specific destination.
 - [ ] Agent looks at user (billboard script).
 - [ ] Agent tags along (tagAlong script).
-
-This is the project I am submitting for scifab. 
 
 
 ## 7. ModelExplorer (Holotoolkit) - Unity2017.4
