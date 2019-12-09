@@ -499,7 +499,15 @@ IL2CPP_EXTERN_C const uint32_t GestureRecognizer_InvokeNavigationUpdated_m94F6C1
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_InvokeRecognitionEnded_mDFBDE51B56D682C1636521441816533C81CC753A_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_InvokeRecognitionStarted_m1E8873104D35064A51A0BAAC7774CDFFEED61924_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_InvokeTapped_mD670AC122C9088630460544749701C246B1B2A49_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_add_NavigationCanceled_m457599DCA92748E915C75C3D858C757D21C5FD4B_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_add_NavigationCompleted_mD39CFD50E1AD8B673AB866EA8EAB7E22F2DBDCB3_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_add_NavigationStarted_mB4E1B0FCB384F37BD9A9309C7C5B0AFADFA3EB1C_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_add_NavigationUpdated_mA509F2737D18188204C6E04154B1A1070F8E711C_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_add_Tapped_mD5587B3F0115F9AC0599D555E2988E63136DA3EC_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_remove_NavigationCanceled_m7F24255B9515ACE9F80A55864A9923D085ED5E32_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_remove_NavigationCompleted_m549BC4069ABD075D8077660FB94C32235306AA03_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_remove_NavigationStarted_m2456D056E789D6F4FC6BB8477658352C1550E8FF_MetadataUsageId;
+IL2CPP_EXTERN_C const uint32_t GestureRecognizer_remove_NavigationUpdated_m279E228CE0E46516F24A472998BC0F5B854EF4E8_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_remove_Tapped_mB7FCD101CEEA7DF998931E64E4358F734A06F840_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE_com_FromNativeMethodDefinition_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE_pinvoke_FromNativeMethodDefinition_MetadataUsageId;
@@ -843,6 +851,15 @@ public:
 		___deviceLoaded_0 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___deviceLoaded_0), (void*)value);
 	}
+};
+
+
+// UnityEngine.XR.XRSettings
+struct  XRSettings_tB57FCBA5B804996700C097CC13B658E7BD43D874  : public RuntimeObject
+{
+public:
+
+public:
 };
 
 
@@ -2452,6 +2469,24 @@ struct GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE_marshaled_com
 	Il2CppMethodPointer ___RecognitionStartedEvent_29;
 	Il2CppMethodPointer ___GestureErrorEvent_30;
 };
+
+// UnityEngine.XR.WSA.Input.GestureSettings
+struct  GestureSettings_t75803D4EC100BFFD3E80E60E6228FE13BC816F4A 
+{
+public:
+	// System.Int32 UnityEngine.XR.WSA.Input.GestureSettings::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(GestureSettings_t75803D4EC100BFFD3E80E60E6228FE13BC816F4A, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
 
 // UnityEngine.XR.WSA.Input.InteractionManager_EventType
 struct  EventType_t9BDE5A5CA4F2A5DF83013032DAA8CAFB401AD80C 
@@ -4505,6 +4540,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GC_SuppressFinalize_m037319A9B95A5BA437E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_m4015B7D3A44DE125C5FE34D7276CD4697C06F380 (RuntimeObject * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::Destroy()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_Destroy_mB698484AD27F6B324450134F777B4CF411941C81 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, const RuntimeMethod* method);
+// System.Int32 UnityEngine.XR.WSA.Input.GestureRecognizer::SetRecognizableGestures_Internal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, int32_t ___newMaskValue0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_forward()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  Vector3_get_forward_m3E2E192B3302130098738C308FA1EE1439449D0D (const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Vector3)
@@ -4689,6 +4726,8 @@ IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void InteractionSourceReleasedEventAr
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void InteractionSourceReleasedEventArgs_set_pressType_m3F75A57B06238ACD617D4C151B977B92AD6460CF_inline (InteractionSourceReleasedEventArgs_tD5E7A07FF6CC463893178DC4F3FD3543F20FB943 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.WSA.Input.InteractionSourceUpdatedEventArgs::set_state(UnityEngine.XR.WSA.Input.InteractionSourceState)
 IL2CPP_EXTERN_C inline  IL2CPP_METHOD_ATTR void InteractionSourceUpdatedEventArgs_set_state_mF28D9130B81128B020B1C8D3003A6A9A84D1E8B6_inline (InteractionSourceUpdatedEventArgs_t8386FB5578FE7C069A136CC36C9B6A56FF99CBC5 * __this, InteractionSourceState_t41A6FEEA413909D5D94BF48BC907FE5DBD162250  ___value0, const RuntimeMethod* method);
+// UnityEngine.Vector3 UnityEngine.XR.WSA.Input.NavigationUpdatedEventArgs::get_normalizedOffset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  NavigationUpdatedEventArgs_get_normalizedOffset_m63EFB136CBEC39D4BC004FC814B93FBA69760C02 (NavigationUpdatedEventArgs_tC41595BC70171E7D2E16538C62923395B285F3BA * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.WSA.Persistence.WorldAnchorStore::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WorldAnchorStore__ctor_m1EE05390756C0AE0F0100507693CE33C8A940E99 (WorldAnchorStore_tD361F689FE6F087AD3F38BA8724398992434E225 * __this, intptr_t ___nativePtr0, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.WSA.Persistence.WorldAnchorStore/GetAsyncDelegate::Invoke(UnityEngine.XR.WSA.Persistence.WorldAnchorStore)
@@ -5108,6 +5147,310 @@ IL_0007:
 		return;
 	}
 }
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::add_NavigationCanceled(System.Action`1<UnityEngine.XR.WSA.Input.NavigationCanceledEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_add_NavigationCanceled_m457599DCA92748E915C75C3D858C757D21C5FD4B (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_add_NavigationCanceled_m457599DCA92748E915C75C3D858C757D21C5FD4B_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * V_0 = NULL;
+	Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * V_1 = NULL;
+	{
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_0 = __this->get_NavigationCanceled_9();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B ** L_2 = __this->get_address_of_NavigationCanceled_9();
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_3 = V_1;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_6 = V_0;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_7 = InterlockedCompareExchangeImpl<Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *>((Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B **)L_2, ((Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)CastclassSealed((RuntimeObject*)L_5, Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_8 = V_0;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)L_8) == ((RuntimeObject*)(Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::remove_NavigationCanceled(System.Action`1<UnityEngine.XR.WSA.Input.NavigationCanceledEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_remove_NavigationCanceled_m7F24255B9515ACE9F80A55864A9923D085ED5E32 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_remove_NavigationCanceled_m7F24255B9515ACE9F80A55864A9923D085ED5E32_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * V_0 = NULL;
+	Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * V_1 = NULL;
+	{
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_0 = __this->get_NavigationCanceled_9();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B ** L_2 = __this->get_address_of_NavigationCanceled_9();
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_3 = V_1;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Remove_m0B0DB7D1B3AF96B71AFAA72BA0EFE32FBBC2932D(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_6 = V_0;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_7 = InterlockedCompareExchangeImpl<Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *>((Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B **)L_2, ((Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)CastclassSealed((RuntimeObject*)L_5, Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_8 = V_0;
+		Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)L_8) == ((RuntimeObject*)(Action_1_t725D93DE550342B16861C2DF8B459B4657B0B40B *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::add_NavigationCompleted(System.Action`1<UnityEngine.XR.WSA.Input.NavigationCompletedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_add_NavigationCompleted_mD39CFD50E1AD8B673AB866EA8EAB7E22F2DBDCB3 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_add_NavigationCompleted_mD39CFD50E1AD8B673AB866EA8EAB7E22F2DBDCB3_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * V_0 = NULL;
+	Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * V_1 = NULL;
+	{
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_0 = __this->get_NavigationCompleted_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 ** L_2 = __this->get_address_of_NavigationCompleted_10();
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_3 = V_1;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_6 = V_0;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_7 = InterlockedCompareExchangeImpl<Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *>((Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 **)L_2, ((Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)CastclassSealed((RuntimeObject*)L_5, Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_8 = V_0;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)L_8) == ((RuntimeObject*)(Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::remove_NavigationCompleted(System.Action`1<UnityEngine.XR.WSA.Input.NavigationCompletedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_remove_NavigationCompleted_m549BC4069ABD075D8077660FB94C32235306AA03 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_remove_NavigationCompleted_m549BC4069ABD075D8077660FB94C32235306AA03_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * V_0 = NULL;
+	Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * V_1 = NULL;
+	{
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_0 = __this->get_NavigationCompleted_10();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 ** L_2 = __this->get_address_of_NavigationCompleted_10();
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_3 = V_1;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Remove_m0B0DB7D1B3AF96B71AFAA72BA0EFE32FBBC2932D(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_6 = V_0;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_7 = InterlockedCompareExchangeImpl<Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *>((Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 **)L_2, ((Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)CastclassSealed((RuntimeObject*)L_5, Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_8 = V_0;
+		Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)L_8) == ((RuntimeObject*)(Action_1_tE20909ED14E1CC129893FCAD2C19BA898C77D7B1 *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::add_NavigationStarted(System.Action`1<UnityEngine.XR.WSA.Input.NavigationStartedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_add_NavigationStarted_mB4E1B0FCB384F37BD9A9309C7C5B0AFADFA3EB1C (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_add_NavigationStarted_mB4E1B0FCB384F37BD9A9309C7C5B0AFADFA3EB1C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * V_0 = NULL;
+	Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * V_1 = NULL;
+	{
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_0 = __this->get_NavigationStarted_11();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E ** L_2 = __this->get_address_of_NavigationStarted_11();
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_3 = V_1;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_6 = V_0;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_7 = InterlockedCompareExchangeImpl<Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *>((Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E **)L_2, ((Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)CastclassSealed((RuntimeObject*)L_5, Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_8 = V_0;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)L_8) == ((RuntimeObject*)(Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::remove_NavigationStarted(System.Action`1<UnityEngine.XR.WSA.Input.NavigationStartedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_remove_NavigationStarted_m2456D056E789D6F4FC6BB8477658352C1550E8FF (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_remove_NavigationStarted_m2456D056E789D6F4FC6BB8477658352C1550E8FF_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * V_0 = NULL;
+	Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * V_1 = NULL;
+	{
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_0 = __this->get_NavigationStarted_11();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E ** L_2 = __this->get_address_of_NavigationStarted_11();
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_3 = V_1;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Remove_m0B0DB7D1B3AF96B71AFAA72BA0EFE32FBBC2932D(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_6 = V_0;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_7 = InterlockedCompareExchangeImpl<Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *>((Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E **)L_2, ((Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)CastclassSealed((RuntimeObject*)L_5, Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_8 = V_0;
+		Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)L_8) == ((RuntimeObject*)(Action_1_t12403A5DFD6ED9F6D2D66FBBBF9B65D8CF00538E *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::add_NavigationUpdated(System.Action`1<UnityEngine.XR.WSA.Input.NavigationUpdatedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_add_NavigationUpdated_mA509F2737D18188204C6E04154B1A1070F8E711C (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_add_NavigationUpdated_mA509F2737D18188204C6E04154B1A1070F8E711C_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * V_0 = NULL;
+	Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * V_1 = NULL;
+	{
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_0 = __this->get_NavigationUpdated_12();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C ** L_2 = __this->get_address_of_NavigationUpdated_12();
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_3 = V_1;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Combine_mC25D2F7DECAFBA6D9A2F9EBA8A77063F0658ECF1(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_6 = V_0;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_7 = InterlockedCompareExchangeImpl<Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *>((Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C **)L_2, ((Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)CastclassSealed((RuntimeObject*)L_5, Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_8 = V_0;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)L_8) == ((RuntimeObject*)(Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::remove_NavigationUpdated(System.Action`1<UnityEngine.XR.WSA.Input.NavigationUpdatedEventArgs>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_remove_NavigationUpdated_m279E228CE0E46516F24A472998BC0F5B854EF4E8 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GestureRecognizer_remove_NavigationUpdated_m279E228CE0E46516F24A472998BC0F5B854EF4E8_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * V_0 = NULL;
+	Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * V_1 = NULL;
+	{
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_0 = __this->get_NavigationUpdated_12();
+		V_0 = L_0;
+	}
+
+IL_0007:
+	{
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_1 = V_0;
+		V_1 = L_1;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C ** L_2 = __this->get_address_of_NavigationUpdated_12();
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_3 = V_1;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_4 = ___value0;
+		Delegate_t * L_5 = Delegate_Remove_m0B0DB7D1B3AF96B71AFAA72BA0EFE32FBBC2932D(L_3, L_4, /*hidden argument*/NULL);
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_6 = V_0;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_7 = InterlockedCompareExchangeImpl<Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *>((Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C **)L_2, ((Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)CastclassSealed((RuntimeObject*)L_5, Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C_il2cpp_TypeInfo_var)), L_6);
+		V_0 = L_7;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_8 = V_0;
+		Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C * L_9 = V_1;
+		if ((!(((RuntimeObject*)(Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)L_8) == ((RuntimeObject*)(Action_1_tEAD62A4E2B757ADC9D11D8A3CCB8E2CF8792F64C *)L_9))))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+}
 // System.IntPtr UnityEngine.XR.WSA.Input.GestureRecognizer::Internal_Create(UnityEngine.XR.WSA.Input.GestureRecognizer)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GestureRecognizer_Internal_Create_m9129CAF44B2E13C242676BAE5411E34C87071DB6 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * ___gestureRecognizer0, const RuntimeMethod* method)
 {
@@ -5230,6 +5573,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_Destroy_mB698484AD27F6
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GestureRecognizer_Destroy_mB698484AD27F6B324450134F777B4CF411941C81_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.WSA.Input.GestureRecognizer::Destroy()");
 	_il2cpp_icall_func(__this);
+}
+// UnityEngine.XR.WSA.Input.GestureSettings UnityEngine.XR.WSA.Input.GestureRecognizer::SetRecognizableGestures(UnityEngine.XR.WSA.Input.GestureSettings)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GestureRecognizer_SetRecognizableGestures_mF459BAE914B9B2E01E7B1652ACF23C5C2722DA68 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, int32_t ___newMaskValue0, const RuntimeMethod* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___newMaskValue0;
+		int32_t L_1 = GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0(__this, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Int32 UnityEngine.XR.WSA.Input.GestureRecognizer::SetRecognizableGestures_Internal(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0 (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, int32_t ___newMaskValue0, const RuntimeMethod* method)
+{
+	typedef int32_t (*GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0_ftn) (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE *, int32_t);
+	static GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GestureRecognizer_SetRecognizableGestures_Internal_mCC4360215E114FC39D35DE9104BE8BE9F74471D0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.WSA.Input.GestureRecognizer::SetRecognizableGestures_Internal(System.Int32)");
+	int32_t retVal = _il2cpp_icall_func(__this, ___newMaskValue0);
+	return retVal;
 }
 // System.Void UnityEngine.XR.WSA.Input.GestureRecognizer::StartCapturingGestures()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GestureRecognizer_StartCapturingGestures_mD02F289C8263C8EACB47B4593E55C8B767C524FA (GestureRecognizer_tE4A3B36C495289B1DF1011E12394116A91E361DE * __this, const RuntimeMethod* method)
@@ -8130,6 +8500,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TappedEventDelegate_EndInvoke_mA14E66DC2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void UnityEngine.XR.WSA.Input.InteractionManager::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InteractionManager__cctor_m0DE800BAFE143A6D365E33EB68ECB1375F7446C5 (const RuntimeMethod* method)
 {
@@ -9012,6 +9390,28 @@ IL2CPP_EXTERN_C  void InteractionSourceUpdatedEventArgs_set_state_mF28D9130B8112
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// UnityEngine.Vector3 UnityEngine.XR.WSA.Input.NavigationUpdatedEventArgs::get_normalizedOffset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  NavigationUpdatedEventArgs_get_normalizedOffset_m63EFB136CBEC39D4BC004FC814B93FBA69760C02 (NavigationUpdatedEventArgs_tC41595BC70171E7D2E16538C62923395B285F3BA * __this, const RuntimeMethod* method)
+{
+	Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_0 = __this->get_m_NormalizedOffset_3();
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_EXTERN_C  Vector3_tDCF05E21F632FE2BA260C06E0D10CA81513E6720  NavigationUpdatedEventArgs_get_normalizedOffset_m63EFB136CBEC39D4BC004FC814B93FBA69760C02_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
+{
+	NavigationUpdatedEventArgs_tC41595BC70171E7D2E16538C62923395B285F3BA * _thisAdjusted = reinterpret_cast<NavigationUpdatedEventArgs_tC41595BC70171E7D2E16538C62923395B285F3BA *>(__this + 1);
+	return NavigationUpdatedEventArgs_get_normalizedOffset_m63EFB136CBEC39D4BC004FC814B93FBA69760C02(_thisAdjusted, method);
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11131,6 +11531,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRDevice__cctor_m4FE111291FBDF43A481045C
 		((XRDevice_t392FCA3D1DCEB95FF500C8F374C88B034C31DF4A_StaticFields*)il2cpp_codegen_static_fields_for(XRDevice_t392FCA3D1DCEB95FF500C8F374C88B034C31DF4A_il2cpp_TypeInfo_var))->set_deviceLoaded_0((Action_1_t32A9EECF5D4397CC1B9A7C7079870875411B06D0 *)NULL);
 		return;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String UnityEngine.XR.XRSettings::get_loadedDeviceName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XRSettings_get_loadedDeviceName_m952D46346306FD9477B13992E5797A85CCD3C98C (const RuntimeMethod* method)
+{
+	typedef String_t* (*XRSettings_get_loadedDeviceName_m952D46346306FD9477B13992E5797A85CCD3C98C_ftn) ();
+	static XRSettings_get_loadedDeviceName_m952D46346306FD9477B13992E5797A85CCD3C98C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_get_loadedDeviceName_m952D46346306FD9477B13992E5797A85CCD3C98C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_loadedDeviceName()");
+	String_t* retVal = _il2cpp_icall_func();
+	return retVal;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

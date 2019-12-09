@@ -264,53 +264,155 @@ extern void GetHighestPriorityCallback_Invoke_m26851E34E8F7F00E6D82EB593811F3230
 extern void GetHighestPriorityCallback_BeginInvoke_m1CE22675CEE0E13C0A8E683B62D6CE4B3E1DEB80 ();
 // 0x0000007B System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_GetHighestPriorityCallback::EndInvoke(UnityEngine.XR.WSA.SurfaceData&,System.IAsyncResult)
 extern void GetHighestPriorityCallback_EndInvoke_m24E6E8AA7D5216421B258A5A146EDF5E80A16845 ();
-// 0x0000007C System.Void UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::Clear()
+// 0x0000007C System.Void UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::.ctor(UnityEngine.XR.WSA.SpatialMappingBase,UnityEngine.XR.WSA.SpatialMappingBase_SurfaceDataReadyCallback,UnityEngine.XR.WSA.SpatialMappingContext_GetHighestPriorityCallback,UnityEngine.XR.WSA.SurfaceObserver)
+extern void SMComponentRecord__ctor_m0D1ED3535BE9E9E7A81A16BE623A843126E9F723_AdjustorThunk ();
+// 0x0000007D System.Void UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::Clear()
 extern void SMComponentRecord_Clear_m415CCE1F9F6B4654D3505256EFE05B49589A78DF_AdjustorThunk ();
-// 0x0000007D System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::IsClear()
+// 0x0000007E System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord::IsClear()
 extern void SMComponentRecord_IsClear_mB3D727B09FA7DC4790DB5566F73E967E28047ED6_AdjustorThunk ();
-// 0x0000007E System.Void UnityEngine.XR.WSA.SpatialMappingContext_SMBakeRequest::Clear()
+// 0x0000007F System.Void UnityEngine.XR.WSA.SpatialMappingContext_SMBakeRequest::Clear()
 extern void SMBakeRequest_Clear_m86306BA81672224B59FAF4E222F232C6D2CC7946_AdjustorThunk ();
-// 0x0000007F System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_SMBakeRequest::IsClear()
+// 0x00000080 System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_SMBakeRequest::IsClear()
 extern void SMBakeRequest_IsClear_m3BA8862A1CA764128849ADFE016EBDAF51BB842C_AdjustorThunk ();
-// 0x00000080 System.Void UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass12_0::.ctor()
+// 0x00000081 System.Void UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_mF948151007C0E6D8E5A56D07390BB18A0EFEC22E ();
-// 0x00000081 System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass12_0::<RegisterComponent>b__0(UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord)
+// 0x00000082 System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass12_0::<RegisterComponent>b__0(UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord)
 extern void U3CU3Ec__DisplayClass12_0_U3CRegisterComponentU3Eb__0_m1F1967D704E5FE3AD22823A3F582232B7CB9E811 ();
-// 0x00000082 System.Void UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass13_0::.ctor()
+// 0x00000083 System.Void UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass13_0::.ctor()
 extern void U3CU3Ec__DisplayClass13_0__ctor_m8F2D1733A044CAB323EC721F55EF8CF934305373 ();
-// 0x00000083 System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass13_0::<DeregisterComponent>b__0(UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord)
+// 0x00000084 System.Boolean UnityEngine.XR.WSA.SpatialMappingContext_<>c__DisplayClass13_0::<DeregisterComponent>b__0(UnityEngine.XR.WSA.SpatialMappingContext_SMComponentRecord)
 extern void U3CU3Ec__DisplayClass13_0_U3CDeregisterComponentU3Eb__0_m531DFED41F5A4968FD1E2672AA38C55D49452F22 ();
-// 0x00000084 UnityEngine.XR.WSA.SpatialMappingRenderer_RenderState UnityEngine.XR.WSA.SpatialMappingRenderer::get_renderState()
+// 0x00000085 UnityEngine.XR.WSA.SpatialMappingRenderer_RenderState UnityEngine.XR.WSA.SpatialMappingRenderer::get_renderState()
 extern void SpatialMappingRenderer_get_renderState_m1ECB7DED90F00AF9947CC552372FACC39692D84D ();
-// 0x00000085 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_renderState(UnityEngine.XR.WSA.SpatialMappingRenderer_RenderState)
+// 0x00000086 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_renderState(UnityEngine.XR.WSA.SpatialMappingRenderer_RenderState)
 extern void SpatialMappingRenderer_set_renderState_m8450524C7413463F34521D71AF035D5558C220A2 ();
-// 0x00000086 UnityEngine.Material UnityEngine.XR.WSA.SpatialMappingRenderer::get_visualMaterial()
+// 0x00000087 UnityEngine.Material UnityEngine.XR.WSA.SpatialMappingRenderer::get_visualMaterial()
 extern void SpatialMappingRenderer_get_visualMaterial_mBFDEB3C06FA62BF6BA399F46B98FECC0E11F9AAC ();
-// 0x00000087 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_visualMaterial(UnityEngine.Material)
+// 0x00000088 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_visualMaterial(UnityEngine.Material)
 extern void SpatialMappingRenderer_set_visualMaterial_m439EE5826EC8650A9051CE8878A4DE6E62BAA37E ();
-// 0x00000088 UnityEngine.Material UnityEngine.XR.WSA.SpatialMappingRenderer::get_occlusionMaterial()
+// 0x00000089 UnityEngine.Material UnityEngine.XR.WSA.SpatialMappingRenderer::get_occlusionMaterial()
 extern void SpatialMappingRenderer_get_occlusionMaterial_m7F15BD9F8CEA72EA91A03FBE74B8DEA2E3ADB609 ();
-// 0x00000089 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_occlusionMaterial(UnityEngine.Material)
+// 0x0000008A System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::set_occlusionMaterial(UnityEngine.Material)
 extern void SpatialMappingRenderer_set_occlusionMaterial_m6600CD1C60856651B8E939DA904984ED9DD82D51 ();
-// 0x0000008A System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnSurfaceDataReady(UnityEngine.XR.WSA.SpatialMappingBase,UnityEngine.XR.WSA.SurfaceData,System.Boolean,System.Single)
+// 0x0000008B System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnSurfaceDataReady(UnityEngine.XR.WSA.SpatialMappingBase,UnityEngine.XR.WSA.SurfaceData,System.Boolean,System.Single)
 extern void SpatialMappingRenderer_OnSurfaceDataReady_m420A3B0A5C033BCC60642E85BAF41408A07B0BFA ();
-// 0x0000008B System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnBeginSurfaceEviction(System.Boolean,UnityEngine.XR.WSA.SpatialMappingBase_Surface)
+// 0x0000008C System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnBeginSurfaceEviction(System.Boolean,UnityEngine.XR.WSA.SpatialMappingBase_Surface)
 extern void SpatialMappingRenderer_OnBeginSurfaceEviction_mCD9F24ED93F611DFA1A51A198CC5CC00D5291AFE ();
-// 0x0000008C System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::ApplyPropertiesToCachedSurfaces()
+// 0x0000008D System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::ApplyPropertiesToCachedSurfaces()
 extern void SpatialMappingRenderer_ApplyPropertiesToCachedSurfaces_mBF763A7CC07840540AF529416F5F8F21F3929248 ();
-// 0x0000008D System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::ApplyRenderSettings(UnityEngine.MeshRenderer)
+// 0x0000008E System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::ApplyRenderSettings(UnityEngine.MeshRenderer)
 extern void SpatialMappingRenderer_ApplyRenderSettings_m5A6A66E6A9D7088B675CE293E9F127188EBB8F50 ();
-// 0x0000008E System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::DestroySurface(UnityEngine.XR.WSA.SpatialMappingBase_Surface)
+// 0x0000008F System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::DestroySurface(UnityEngine.XR.WSA.SpatialMappingBase_Surface)
 extern void SpatialMappingRenderer_DestroySurface_mD0C57EF7CC663F5487EC4AB804E6AED68460E2BA ();
-// 0x0000008F System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnDestroy()
+// 0x00000090 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnDestroy()
 extern void SpatialMappingRenderer_OnDestroy_m9D860213004344023EA62B0F871F9034B73B1435 ();
-// 0x00000090 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnResetProperties()
+// 0x00000091 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::OnResetProperties()
 extern void SpatialMappingRenderer_OnResetProperties_m3FBB23E78FA0835DA1938EA25F0C526EDB114CF3 ();
-// 0x00000091 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::Reset()
+// 0x00000092 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::Reset()
 extern void SpatialMappingRenderer_Reset_m34D8765E9CDCDF837994F9D19748F16054304DEF ();
-// 0x00000092 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::.ctor()
+// 0x00000093 System.Void UnityEngine.XR.WSA.SpatialMappingRenderer::.ctor()
 extern void SpatialMappingRenderer__ctor_m14922A96C242112D7063A6D099A62FAE3683AA77 ();
-static Il2CppMethodPointer s_methodPointers[146] = 
+// 0x00000094 System.Boolean UnityEngine.EventSystems.HoloLensInput::get_mousePresent()
+extern void HoloLensInput_get_mousePresent_m445B5A9C2B183623EB77C27B3A0CC27EB5A4B892 ();
+// 0x00000095 System.Boolean UnityEngine.EventSystems.HoloLensInput::GetMouseButtonDown(System.Int32)
+extern void HoloLensInput_GetMouseButtonDown_mE112D2A4EF2FD55EDD82449FE628F7BFFF669D07 ();
+// 0x00000096 System.Boolean UnityEngine.EventSystems.HoloLensInput::GetMouseButtonUp(System.Int32)
+extern void HoloLensInput_GetMouseButtonUp_m04A47C917982B5A55221FC6D1249527B6C6BC66D ();
+// 0x00000097 System.Boolean UnityEngine.EventSystems.HoloLensInput::GetMouseButton(System.Int32)
+extern void HoloLensInput_GetMouseButton_mA1312EC3E2BAAD1DA8ACC4D6486B90A1848D3B36 ();
+// 0x00000098 UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::get_mousePosition()
+extern void HoloLensInput_get_mousePosition_m5BBF2B8E53FFF5437FDA49DE51CB9E40B73388C4 ();
+// 0x00000099 UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::get_mouseScrollDelta()
+extern void HoloLensInput_get_mouseScrollDelta_m7C418980EFFC028FF1C8287613CE80301EA245D6 ();
+// 0x0000009A System.Boolean UnityEngine.EventSystems.HoloLensInput::get_touchSupported()
+extern void HoloLensInput_get_touchSupported_mD02A566487EF2C625FC37ACE638C6470510338AC ();
+// 0x0000009B System.Int32 UnityEngine.EventSystems.HoloLensInput::get_touchCount()
+extern void HoloLensInput_get_touchCount_mC653A720B65DC5E383BEB487C64CB7D6531668C0 ();
+// 0x0000009C System.Void UnityEngine.EventSystems.HoloLensInput::Awake()
+extern void HoloLensInput_Awake_m70BA1043D113FABE7F7C06271F3B7998A0BB45F5 ();
+// 0x0000009D System.Void UnityEngine.EventSystems.HoloLensInput::OnDestroy()
+extern void HoloLensInput_OnDestroy_m0D0E7BB08EE4B8029E6ACBF59E6AFAAC548BE482 ();
+// 0x0000009E System.Void UnityEngine.EventSystems.HoloLensInput::UpdateInput()
+extern void HoloLensInput_UpdateInput_m6731D6E86EB7A3FF3A1117D89C680811435BF85D ();
+// 0x0000009F System.Boolean UnityEngine.EventSystems.HoloLensInput::AllowDrag()
+extern void HoloLensInput_AllowDrag_m629C213EC2A00C394A67A0989E437EB230A16E3D ();
+// 0x000000A0 System.Boolean UnityEngine.EventSystems.HoloLensInput::TryGetAnchorWorldSpace(UnityEngine.Vector3&)
+extern void HoloLensInput_TryGetAnchorWorldSpace_m717AD859215B59C8A6C82A68FE3E9EA07ACD9002 ();
+// 0x000000A1 System.Void UnityEngine.EventSystems.HoloLensInput::GestureHandler_OnTapped(UnityEngine.XR.WSA.Input.TappedEventArgs)
+extern void HoloLensInput_GestureHandler_OnTapped_mB3A4E46BB674B671E6A2047E4F2253DA34B9026E ();
+// 0x000000A2 System.Void UnityEngine.EventSystems.HoloLensInput::GestureHandler_OnNavigationStarted(UnityEngine.XR.WSA.Input.NavigationStartedEventArgs)
+extern void HoloLensInput_GestureHandler_OnNavigationStarted_m5BABB19B941A94BDAC0306717F905CF1A14114BE ();
+// 0x000000A3 System.Void UnityEngine.EventSystems.HoloLensInput::GestureHandler_OnNavigationUpdated(UnityEngine.XR.WSA.Input.NavigationUpdatedEventArgs)
+extern void HoloLensInput_GestureHandler_OnNavigationUpdated_m7FD257B72D8CC5551DEF9E75CD686E59B42F38F0 ();
+// 0x000000A4 System.Void UnityEngine.EventSystems.HoloLensInput::GestureHandler_OnNavigationCompleted(UnityEngine.XR.WSA.Input.NavigationCompletedEventArgs)
+extern void HoloLensInput_GestureHandler_OnNavigationCompleted_m8F16371E94B150666B4A4397203E9CF9B4FB5BED ();
+// 0x000000A5 System.Void UnityEngine.EventSystems.HoloLensInput::GestureHandler_OnNavigationCanceled(UnityEngine.XR.WSA.Input.NavigationCanceledEventArgs)
+extern void HoloLensInput_GestureHandler_OnNavigationCanceled_m67FD466D3B261B148F061CBB032BA5B7FA2F6963 ();
+// 0x000000A6 System.Void UnityEngine.EventSystems.HoloLensInput::OnNavigationCompletedOrCanceled()
+extern void HoloLensInput_OnNavigationCompletedOrCanceled_mE92F640DB99570AD1A42C9882F3F7347BB27149C ();
+// 0x000000A7 UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::GetGazeScreenPosition()
+extern void HoloLensInput_GetGazeScreenPosition_m9073CFAB427427D2CF716229652E87F8DC58C231 ();
+// 0x000000A8 UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::EmulateMousePosition(UnityEngine.Vector3,UnityEngine.Vector2)
+extern void HoloLensInput_EmulateMousePosition_mCE630E4BC37BE3EC3ED5D9707C5540F0F36DAEFB ();
+// 0x000000A9 UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::GetGazeAndGestureScreenPosition()
+extern void HoloLensInput_GetGazeAndGestureScreenPosition_m7DB2FDF3835B4EDD8C9B8D8FB11D73FB54CDEE2B ();
+// 0x000000AA UnityEngine.Vector2 UnityEngine.EventSystems.HoloLensInput::GetGestureScrollDelta()
+extern void HoloLensInput_GetGestureScrollDelta_m24FDE0BFC26D5173002FBABAD945914E206602B8 ();
+// 0x000000AB System.Void UnityEngine.EventSystems.HoloLensInput::.ctor()
+extern void HoloLensInput__ctor_m029C51F216AAC03C235E01412E8F174E95D42634 ();
+// 0x000000AC System.Single UnityEngine.EventSystems.HoloLensInputModule::get_normalizedNavigationToScreenOffsetScalar()
+extern void HoloLensInputModule_get_normalizedNavigationToScreenOffsetScalar_mE683140D392D6E0CC4161770428E8BDF5C69BC6E ();
+// 0x000000AD System.Void UnityEngine.EventSystems.HoloLensInputModule::set_normalizedNavigationToScreenOffsetScalar(System.Single)
+extern void HoloLensInputModule_set_normalizedNavigationToScreenOffsetScalar_m576CEEC602DBE976D05B89E9256776C47D44DF49 ();
+// 0x000000AE System.Single UnityEngine.EventSystems.HoloLensInputModule::get_timeToPressOnTap()
+extern void HoloLensInputModule_get_timeToPressOnTap_m98D628A1BA4ADD84B66268FC108B32F6FC8B1FC0 ();
+// 0x000000AF System.Void UnityEngine.EventSystems.HoloLensInputModule::set_timeToPressOnTap(System.Single)
+extern void HoloLensInputModule_set_timeToPressOnTap_mA98569B88F970B41C62689206D2A6CD4DD3DD2C3 ();
+// 0x000000B0 System.Void UnityEngine.EventSystems.HoloLensInputModule::.ctor()
+extern void HoloLensInputModule__ctor_mC92DEA3EDD3097EEBEE5B3F1ACF0F3F9456E2DAE ();
+// 0x000000B1 System.Void UnityEngine.EventSystems.HoloLensInputModule::Awake()
+extern void HoloLensInputModule_Awake_m0F48A620040126693CDC656386383B668941B587 ();
+// 0x000000B2 System.Boolean UnityEngine.EventSystems.HoloLensInputModule::IsModuleSupported()
+extern void HoloLensInputModule_IsModuleSupported_mBAAC8841B1C755DBC0FB705C4A33E686B863D2A2 ();
+// 0x000000B3 System.Boolean UnityEngine.EventSystems.HoloLensInputModule::ShouldActivateModule()
+extern void HoloLensInputModule_ShouldActivateModule_mC48780B615E225A3BBD57789522FBE601EBCB950 ();
+// 0x000000B4 System.Void UnityEngine.EventSystems.HoloLensInputModule::ActivateModule()
+extern void HoloLensInputModule_ActivateModule_m61441015A758E80F603BCEA33668EF15A3F6AD77 ();
+// 0x000000B5 System.Void UnityEngine.EventSystems.HoloLensInputModule::UpdateModule()
+extern void HoloLensInputModule_UpdateModule_mFCBE0C79226FECAD9A47F8A4AD51ED1F02A79BBE ();
+// 0x000000B6 System.Void UnityEngine.EventSystems.HoloLensInputModule::ProcessDrag(UnityEngine.EventSystems.PointerEventData)
+extern void HoloLensInputModule_ProcessDrag_mA9CED6438A86CE5B19AA3FC8811EB111104E43AB ();
+// 0x000000B7 UnityEngine.GameObject UnityEngine.EventSystems.HoloLensInputModule::Internal_GetCurrentFocusedGameObject()
+extern void HoloLensInputModule_Internal_GetCurrentFocusedGameObject_mF8696D11EC99BA6CCAEEF50628ACF1D47D142DF8 ();
+// 0x000000B8 System.Void UnityEngine.EventSystems.HoloLensInputModule::Internal_GestureNotifier()
+extern void HoloLensInputModule_Internal_GestureNotifier_mE4D2AD4882814246FC24F56BFB06297DDD97B8A7 ();
+// 0x000000B9 System.Void UnityEngine.EventSystems.HoloLensInputModule::HoloLensInput_GestureNotifier()
+extern void HoloLensInputModule_HoloLensInput_GestureNotifier_m312C815CC60A71B53A691F32A56FC8135759E6E8 ();
+// 0x000000BA UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.HoloLensInputModule::HoloLensInput_GetEventSystem()
+extern void HoloLensInputModule_HoloLensInput_GetEventSystem_m91808F60323CDAE7DE8243F10985A1B2032AAEB0 ();
+// 0x000000BB System.Single UnityEngine.EventSystems.HoloLensInputModule::HoloLensInput_GetScreenOffsetScalar()
+extern void HoloLensInputModule_HoloLensInput_GetScreenOffsetScalar_m0135136E7959863F4C1860CEA2C4205EB9BC520B ();
+// 0x000000BC System.Single UnityEngine.EventSystems.HoloLensInputModule::HoloLensInput_GetTimeToPressOnTap()
+extern void HoloLensInputModule_HoloLensInput_GetTimeToPressOnTap_mAE7710B28103A0038065D0E2290168EBCE21D308 ();
+// 0x000000BD UnityEngine.Audio.AudioSpatializerMicrosoft_RoomSize UnityEngine.Audio.AudioSpatializerMicrosoft::get_roomSize()
+extern void AudioSpatializerMicrosoft_get_roomSize_m4827F4A5B17D45A01A3552978A6D2D2809882379 ();
+// 0x000000BE System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::set_roomSize(UnityEngine.Audio.AudioSpatializerMicrosoft_RoomSize)
+extern void AudioSpatializerMicrosoft_set_roomSize_mE355175404ECCF0B728E9447B0AAA95284B02B0A ();
+// 0x000000BF System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::Awake()
+extern void AudioSpatializerMicrosoft_Awake_mEA2D1DF056CDDA98FCFD46EE15952FEA8331FD26 ();
+// 0x000000C0 System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::OnValidate()
+extern void AudioSpatializerMicrosoft_OnValidate_m07EE8BEF5426A15DA16A10E2CC6B77995F6E8664 ();
+// 0x000000C1 System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::OnDidAnimateProperty()
+extern void AudioSpatializerMicrosoft_OnDidAnimateProperty_mA94E559F87C7B9DFF1B4BE680226E38FF0D86830 ();
+// 0x000000C2 System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::SetSpatializerFloats()
+extern void AudioSpatializerMicrosoft_SetSpatializerFloats_m9581DC69ADD7393EC63278A2C44C7B5203812140 ();
+// 0x000000C3 UnityEngine.AudioSource UnityEngine.Audio.AudioSpatializerMicrosoft::get_audioSource()
+extern void AudioSpatializerMicrosoft_get_audioSource_m64394B367E4F22778216B603971AC6CB0666FE26 ();
+// 0x000000C4 System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::SetSpatializerRoomSize()
+extern void AudioSpatializerMicrosoft_SetSpatializerRoomSize_mBD4BA990B3FBF49ACF1220A219E2133D6F1062F0 ();
+// 0x000000C5 System.Void UnityEngine.Audio.AudioSpatializerMicrosoft::.ctor()
+extern void AudioSpatializerMicrosoft__ctor_m139A4F404C376F22B54D67E9EB81262F85B6DE36 ();
+static Il2CppMethodPointer s_methodPointers[197] = 
 {
 	SpatialMappingBase_get_surfaceParent_m19EDABA4E196956D3D93D0E8F71582B62FBEB6AC,
 	SpatialMappingBase_set_surfaceParent_mEA691909114179FEFB851F5A3BA8897A41626B7D,
@@ -435,6 +537,7 @@ static Il2CppMethodPointer s_methodPointers[146] =
 	GetHighestPriorityCallback_Invoke_m26851E34E8F7F00E6D82EB593811F3230E8CB3E3,
 	GetHighestPriorityCallback_BeginInvoke_m1CE22675CEE0E13C0A8E683B62D6CE4B3E1DEB80,
 	GetHighestPriorityCallback_EndInvoke_m24E6E8AA7D5216421B258A5A146EDF5E80A16845,
+	SMComponentRecord__ctor_m0D1ED3535BE9E9E7A81A16BE623A843126E9F723_AdjustorThunk,
 	SMComponentRecord_Clear_m415CCE1F9F6B4654D3505256EFE05B49589A78DF_AdjustorThunk,
 	SMComponentRecord_IsClear_mB3D727B09FA7DC4790DB5566F73E967E28047ED6_AdjustorThunk,
 	SMBakeRequest_Clear_m86306BA81672224B59FAF4E222F232C6D2CC7946_AdjustorThunk,
@@ -458,8 +561,58 @@ static Il2CppMethodPointer s_methodPointers[146] =
 	SpatialMappingRenderer_OnResetProperties_m3FBB23E78FA0835DA1938EA25F0C526EDB114CF3,
 	SpatialMappingRenderer_Reset_m34D8765E9CDCDF837994F9D19748F16054304DEF,
 	SpatialMappingRenderer__ctor_m14922A96C242112D7063A6D099A62FAE3683AA77,
+	HoloLensInput_get_mousePresent_m445B5A9C2B183623EB77C27B3A0CC27EB5A4B892,
+	HoloLensInput_GetMouseButtonDown_mE112D2A4EF2FD55EDD82449FE628F7BFFF669D07,
+	HoloLensInput_GetMouseButtonUp_m04A47C917982B5A55221FC6D1249527B6C6BC66D,
+	HoloLensInput_GetMouseButton_mA1312EC3E2BAAD1DA8ACC4D6486B90A1848D3B36,
+	HoloLensInput_get_mousePosition_m5BBF2B8E53FFF5437FDA49DE51CB9E40B73388C4,
+	HoloLensInput_get_mouseScrollDelta_m7C418980EFFC028FF1C8287613CE80301EA245D6,
+	HoloLensInput_get_touchSupported_mD02A566487EF2C625FC37ACE638C6470510338AC,
+	HoloLensInput_get_touchCount_mC653A720B65DC5E383BEB487C64CB7D6531668C0,
+	HoloLensInput_Awake_m70BA1043D113FABE7F7C06271F3B7998A0BB45F5,
+	HoloLensInput_OnDestroy_m0D0E7BB08EE4B8029E6ACBF59E6AFAAC548BE482,
+	HoloLensInput_UpdateInput_m6731D6E86EB7A3FF3A1117D89C680811435BF85D,
+	HoloLensInput_AllowDrag_m629C213EC2A00C394A67A0989E437EB230A16E3D,
+	HoloLensInput_TryGetAnchorWorldSpace_m717AD859215B59C8A6C82A68FE3E9EA07ACD9002,
+	HoloLensInput_GestureHandler_OnTapped_mB3A4E46BB674B671E6A2047E4F2253DA34B9026E,
+	HoloLensInput_GestureHandler_OnNavigationStarted_m5BABB19B941A94BDAC0306717F905CF1A14114BE,
+	HoloLensInput_GestureHandler_OnNavigationUpdated_m7FD257B72D8CC5551DEF9E75CD686E59B42F38F0,
+	HoloLensInput_GestureHandler_OnNavigationCompleted_m8F16371E94B150666B4A4397203E9CF9B4FB5BED,
+	HoloLensInput_GestureHandler_OnNavigationCanceled_m67FD466D3B261B148F061CBB032BA5B7FA2F6963,
+	HoloLensInput_OnNavigationCompletedOrCanceled_mE92F640DB99570AD1A42C9882F3F7347BB27149C,
+	HoloLensInput_GetGazeScreenPosition_m9073CFAB427427D2CF716229652E87F8DC58C231,
+	HoloLensInput_EmulateMousePosition_mCE630E4BC37BE3EC3ED5D9707C5540F0F36DAEFB,
+	HoloLensInput_GetGazeAndGestureScreenPosition_m7DB2FDF3835B4EDD8C9B8D8FB11D73FB54CDEE2B,
+	HoloLensInput_GetGestureScrollDelta_m24FDE0BFC26D5173002FBABAD945914E206602B8,
+	HoloLensInput__ctor_m029C51F216AAC03C235E01412E8F174E95D42634,
+	HoloLensInputModule_get_normalizedNavigationToScreenOffsetScalar_mE683140D392D6E0CC4161770428E8BDF5C69BC6E,
+	HoloLensInputModule_set_normalizedNavigationToScreenOffsetScalar_m576CEEC602DBE976D05B89E9256776C47D44DF49,
+	HoloLensInputModule_get_timeToPressOnTap_m98D628A1BA4ADD84B66268FC108B32F6FC8B1FC0,
+	HoloLensInputModule_set_timeToPressOnTap_mA98569B88F970B41C62689206D2A6CD4DD3DD2C3,
+	HoloLensInputModule__ctor_mC92DEA3EDD3097EEBEE5B3F1ACF0F3F9456E2DAE,
+	HoloLensInputModule_Awake_m0F48A620040126693CDC656386383B668941B587,
+	HoloLensInputModule_IsModuleSupported_mBAAC8841B1C755DBC0FB705C4A33E686B863D2A2,
+	HoloLensInputModule_ShouldActivateModule_mC48780B615E225A3BBD57789522FBE601EBCB950,
+	HoloLensInputModule_ActivateModule_m61441015A758E80F603BCEA33668EF15A3F6AD77,
+	HoloLensInputModule_UpdateModule_mFCBE0C79226FECAD9A47F8A4AD51ED1F02A79BBE,
+	HoloLensInputModule_ProcessDrag_mA9CED6438A86CE5B19AA3FC8811EB111104E43AB,
+	HoloLensInputModule_Internal_GetCurrentFocusedGameObject_mF8696D11EC99BA6CCAEEF50628ACF1D47D142DF8,
+	HoloLensInputModule_Internal_GestureNotifier_mE4D2AD4882814246FC24F56BFB06297DDD97B8A7,
+	HoloLensInputModule_HoloLensInput_GestureNotifier_m312C815CC60A71B53A691F32A56FC8135759E6E8,
+	HoloLensInputModule_HoloLensInput_GetEventSystem_m91808F60323CDAE7DE8243F10985A1B2032AAEB0,
+	HoloLensInputModule_HoloLensInput_GetScreenOffsetScalar_m0135136E7959863F4C1860CEA2C4205EB9BC520B,
+	HoloLensInputModule_HoloLensInput_GetTimeToPressOnTap_mAE7710B28103A0038065D0E2290168EBCE21D308,
+	AudioSpatializerMicrosoft_get_roomSize_m4827F4A5B17D45A01A3552978A6D2D2809882379,
+	AudioSpatializerMicrosoft_set_roomSize_mE355175404ECCF0B728E9447B0AAA95284B02B0A,
+	AudioSpatializerMicrosoft_Awake_mEA2D1DF056CDDA98FCFD46EE15952FEA8331FD26,
+	AudioSpatializerMicrosoft_OnValidate_m07EE8BEF5426A15DA16A10E2CC6B77995F6E8664,
+	AudioSpatializerMicrosoft_OnDidAnimateProperty_mA94E559F87C7B9DFF1B4BE680226E38FF0D86830,
+	AudioSpatializerMicrosoft_SetSpatializerFloats_m9581DC69ADD7393EC63278A2C44C7B5203812140,
+	AudioSpatializerMicrosoft_get_audioSource_m64394B367E4F22778216B603971AC6CB0666FE26,
+	AudioSpatializerMicrosoft_SetSpatializerRoomSize_mBD4BA990B3FBF49ACF1220A219E2133D6F1062F0,
+	AudioSpatializerMicrosoft__ctor_m139A4F404C376F22B54D67E9EB81262F85B6DE36,
 };
-static const int32_t s_InvokerIndices[146] = 
+static const int32_t s_InvokerIndices[197] = 
 {
 	14,
 	26,
@@ -485,8 +638,8 @@ static const int32_t s_InvokerIndices[146] =
 	26,
 	14,
 	26,
-	1284,
-	1554,
+	1286,
+	1557,
 	1122,
 	1123,
 	14,
@@ -508,16 +661,16 @@ static const int32_t s_InvokerIndices[146] =
 	23,
 	23,
 	23,
-	1540,
-	1555,
-	1556,
-	1557,
-	26,
+	1543,
 	1558,
+	1559,
+	1560,
+	26,
+	1561,
 	1010,
 	9,
 	1125,
-	1559,
+	1562,
 	26,
 	23,
 	789,
@@ -529,38 +682,38 @@ static const int32_t s_InvokerIndices[146] =
 	23,
 	3,
 	111,
-	1559,
-	1560,
+	1562,
+	1563,
 	26,
+	1564,
 	1561,
-	1558,
 	282,
 	879,
 	14,
 	26,
+	1565,
+	1566,
+	10,
+	32,
+	95,
+	31,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	23,
+	10,
+	32,
+	14,
+	26,
+	95,
+	31,
+	23,
 	1562,
-	1563,
-	10,
-	32,
-	95,
-	31,
-	14,
-	26,
-	14,
-	26,
-	14,
-	26,
-	14,
-	26,
-	23,
-	10,
-	32,
-	14,
-	26,
-	95,
-	31,
-	23,
-	1559,
 	1010,
 	26,
 	26,
@@ -572,33 +725,34 @@ static const int32_t s_InvokerIndices[146] =
 	4,
 	391,
 	26,
-	1542,
-	1564,
+	1545,
+	1567,
 	34,
-	1565,
+	1568,
 	931,
 	23,
 	23,
 	3,
 	111,
 	789,
-	1566,
-	1492,
+	1569,
+	1495,
+	391,
 	23,
 	95,
 	23,
 	95,
 	23,
-	1567,
+	1570,
 	23,
-	1567,
+	1570,
 	10,
 	32,
 	14,
 	26,
 	14,
 	26,
-	1559,
+	1562,
 	1010,
 	23,
 	26,
@@ -607,12 +761,62 @@ static const int32_t s_InvokerIndices[146] =
 	23,
 	23,
 	23,
+	95,
+	30,
+	30,
+	30,
+	1131,
+	1131,
+	95,
+	10,
+	23,
+	23,
+	23,
+	95,
+	789,
+	1571,
+	1572,
+	1573,
+	1574,
+	1575,
+	23,
+	1221,
+	1576,
+	1131,
+	1131,
+	23,
+	682,
+	294,
+	682,
+	294,
+	23,
+	23,
+	95,
+	95,
+	23,
+	23,
+	26,
+	14,
+	23,
+	23,
+	14,
+	682,
+	682,
+	10,
+	32,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	23,
 };
 extern const Il2CppCodeGenModule g_Unity_XR_WindowsMRCodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_WindowsMRCodeGenModule = 
 {
 	"Unity.XR.WindowsMR.dll",
-	146,
+	197,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,

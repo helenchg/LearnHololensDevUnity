@@ -126,13 +126,73 @@ extern void UnderworldReset__ctor_m735E03449A66426B7B29D8FFBB3FA33E40D57994 ();
 extern void UnderworldSound_OnEnable_m877968D926ADD126716E0BDE9DDFA18419369D8A ();
 // 0x00000035 System.Void UnderworldSound::.ctor()
 extern void UnderworldSound__ctor_mC894652810D0F1CE947DB6152796D73342EB1059 ();
-// 0x00000036 System.Void WorldCursor::Start()
+// 0x00000036 GazeGestureManager GazeGestureManager::get_Instance()
+extern void GazeGestureManager_get_Instance_m655D13E324E4D6840ED6A097F4D7E466A5051A9A ();
+// 0x00000037 System.Void GazeGestureManager::set_Instance(GazeGestureManager)
+extern void GazeGestureManager_set_Instance_mFCBDDB12161080A26D5C9EA1FF761C6C972EFECD ();
+// 0x00000038 UnityEngine.GameObject GazeGestureManager::get_FocusedObject()
+extern void GazeGestureManager_get_FocusedObject_m1A8EE14E03F994EA84B81CA0109C0FD4DCA33EC9 ();
+// 0x00000039 System.Void GazeGestureManager::set_FocusedObject(UnityEngine.GameObject)
+extern void GazeGestureManager_set_FocusedObject_m586110EC2023B65D586AB962EE15341B31F5EA64 ();
+// 0x0000003A System.Void GazeGestureManager::Awake()
+extern void GazeGestureManager_Awake_m4F9256278D0F3261098FD6DBC5A24595F6DB9885 ();
+// 0x0000003B System.Void GazeGestureManager::Update()
+extern void GazeGestureManager_Update_mA54747A71C48B1E051F0EA336486D03D10BC41A8 ();
+// 0x0000003C System.Void GazeGestureManager::.ctor()
+extern void GazeGestureManager__ctor_mC45B5B82F709DAA91FDD4E6408605A0DFCF744B0 ();
+// 0x0000003D System.Void GazeGestureManager::<Awake>b__9_0(UnityEngine.XR.WSA.Input.TappedEventArgs)
+extern void GazeGestureManager_U3CAwakeU3Eb__9_0_m359984EE76DDDEE63FAD6DFD9414E436D46A870B ();
+// 0x0000003E System.Void HitTarget::OnCollisionEnter(UnityEngine.Collision)
+extern void HitTarget_OnCollisionEnter_mFC820CAD122553F5D68EA353AF26A40D91860820 ();
+// 0x0000003F System.Void HitTarget::.ctor()
+extern void HitTarget__ctor_m607ABDEDE8BF0A684AA44D2E38BC9A935B059EC9 ();
+// 0x00000040 System.Void SpeechManager::Start()
+extern void SpeechManager_Start_m8FFBDDD9B894B620308FDAB076844B38011FE3AC ();
+// 0x00000041 System.Void SpeechManager::KeywordRecognizer_OnPhraseRecognized(UnityEngine.Windows.Speech.PhraseRecognizedEventArgs)
+extern void SpeechManager_KeywordRecognizer_OnPhraseRecognized_m850C0705DC5D6EE6B773684FF8790F8FEC6E3DA3 ();
+// 0x00000042 System.Void SpeechManager::.ctor()
+extern void SpeechManager__ctor_m4A8DF2DE146011A205631541AC4B38FBBB698B47 ();
+// 0x00000043 System.Void SpeechManager::<Start>b__2_0()
+extern void SpeechManager_U3CStartU3Eb__2_0_m03DD5609BE1B6BC910CC8F90EEA795EE8E9CD893 ();
+// 0x00000044 System.Void SpeechManager_<>c::.cctor()
+extern void U3CU3Ec__cctor_m584639BF9EB801E777F0CEC27070CB37D0A4C656 ();
+// 0x00000045 System.Void SpeechManager_<>c::.ctor()
+extern void U3CU3Ec__ctor_m678ECC6CF5837F78EF62226E224D3207B60C3EFB ();
+// 0x00000046 System.Void SpeechManager_<>c::<Start>b__2_1()
+extern void U3CU3Ec_U3CStartU3Eb__2_1_m877EE3EA1E44ADC1DF7114E43F6AD55A99111F1A ();
+// 0x00000047 System.Void SphereCommands::Start()
+extern void SphereCommands_Start_mE10CDCEA6FAC4350A4ED51AFBAAD52FF2AC47833 ();
+// 0x00000048 System.Void SphereCommands::OnSelect()
+extern void SphereCommands_OnSelect_m9689772ECEEEE6A491A66AE945C2198B83A28988 ();
+// 0x00000049 System.Void SphereCommands::OnReset()
+extern void SphereCommands_OnReset_m73F69610284DCFAB7F6C01A891F5E9CB5AE95440 ();
+// 0x0000004A System.Void SphereCommands::OnDrop()
+extern void SphereCommands_OnDrop_mD9D090ED447F7CB9D37D1A6FCA0CD53A83239178 ();
+// 0x0000004B System.Void SphereCommands::.ctor()
+extern void SphereCommands__ctor_m35EB78A502550B38E5E9013AA90D487AB070FA3B ();
+// 0x0000004C System.Void SphereSounds::Start()
+extern void SphereSounds_Start_m3EDAF6D1E9229F5D7C6C040BE5120DF0F37EFCAE ();
+// 0x0000004D System.Void SphereSounds::OnCollisionEnter(UnityEngine.Collision)
+extern void SphereSounds_OnCollisionEnter_m9168ABD3C9E68877AADF93E508126BD6C7847F32 ();
+// 0x0000004E System.Void SphereSounds::OnCollisionStay(UnityEngine.Collision)
+extern void SphereSounds_OnCollisionStay_m6D34995492A8C8A2AFC3935B383E30F9739B6F19 ();
+// 0x0000004F System.Void SphereSounds::OnCollisionExit(UnityEngine.Collision)
+extern void SphereSounds_OnCollisionExit_m3485C4AECE56D7E80447BC02AEDAB2A72F481BE9 ();
+// 0x00000050 System.Void SphereSounds::.ctor()
+extern void SphereSounds__ctor_mC109D07FC23F29BAEC12103333083D6A9F1B073A ();
+// 0x00000051 System.Void TapToPlaceParent::OnSelect()
+extern void TapToPlaceParent_OnSelect_mA6DFF7DC583683487C2E4FD33BAC73EF71EA1135 ();
+// 0x00000052 System.Void TapToPlaceParent::Update()
+extern void TapToPlaceParent_Update_m8E81BA1CB0D0D0F039E1DBF7F1F9EF1678242B64 ();
+// 0x00000053 System.Void TapToPlaceParent::.ctor()
+extern void TapToPlaceParent__ctor_m38D7263C49766C48D55F10B8827F7543BD8B6706 ();
+// 0x00000054 System.Void WorldCursor::Start()
 extern void WorldCursor_Start_mA505C46F7BB378DF88DC53AD01E1DDA522A56D5F ();
-// 0x00000037 System.Void WorldCursor::Update()
+// 0x00000055 System.Void WorldCursor::Update()
 extern void WorldCursor_Update_m4B0864C2591CAA785E800E2EF6E88D71D9A15DD5 ();
-// 0x00000038 System.Void WorldCursor::.ctor()
+// 0x00000056 System.Void WorldCursor::.ctor()
 extern void WorldCursor__ctor_m7D7EDC543B0245D6116EB8BCDDA0C9B1F01C9BDC ();
-static Il2CppMethodPointer s_methodPointers[56] = 
+static Il2CppMethodPointer s_methodPointers[86] = 
 {
 	AnimationSpeed_Start_mAE653778B51251EBD04AC64E4FC6E7DA7ABB43E2,
 	AnimationSpeed__ctor_mF684CAE3B1D3142B04E523B9BD2E0103C1EE7628,
@@ -187,11 +247,41 @@ static Il2CppMethodPointer s_methodPointers[56] =
 	UnderworldReset__ctor_m735E03449A66426B7B29D8FFBB3FA33E40D57994,
 	UnderworldSound_OnEnable_m877968D926ADD126716E0BDE9DDFA18419369D8A,
 	UnderworldSound__ctor_mC894652810D0F1CE947DB6152796D73342EB1059,
+	GazeGestureManager_get_Instance_m655D13E324E4D6840ED6A097F4D7E466A5051A9A,
+	GazeGestureManager_set_Instance_mFCBDDB12161080A26D5C9EA1FF761C6C972EFECD,
+	GazeGestureManager_get_FocusedObject_m1A8EE14E03F994EA84B81CA0109C0FD4DCA33EC9,
+	GazeGestureManager_set_FocusedObject_m586110EC2023B65D586AB962EE15341B31F5EA64,
+	GazeGestureManager_Awake_m4F9256278D0F3261098FD6DBC5A24595F6DB9885,
+	GazeGestureManager_Update_mA54747A71C48B1E051F0EA336486D03D10BC41A8,
+	GazeGestureManager__ctor_mC45B5B82F709DAA91FDD4E6408605A0DFCF744B0,
+	GazeGestureManager_U3CAwakeU3Eb__9_0_m359984EE76DDDEE63FAD6DFD9414E436D46A870B,
+	HitTarget_OnCollisionEnter_mFC820CAD122553F5D68EA353AF26A40D91860820,
+	HitTarget__ctor_m607ABDEDE8BF0A684AA44D2E38BC9A935B059EC9,
+	SpeechManager_Start_m8FFBDDD9B894B620308FDAB076844B38011FE3AC,
+	SpeechManager_KeywordRecognizer_OnPhraseRecognized_m850C0705DC5D6EE6B773684FF8790F8FEC6E3DA3,
+	SpeechManager__ctor_m4A8DF2DE146011A205631541AC4B38FBBB698B47,
+	SpeechManager_U3CStartU3Eb__2_0_m03DD5609BE1B6BC910CC8F90EEA795EE8E9CD893,
+	U3CU3Ec__cctor_m584639BF9EB801E777F0CEC27070CB37D0A4C656,
+	U3CU3Ec__ctor_m678ECC6CF5837F78EF62226E224D3207B60C3EFB,
+	U3CU3Ec_U3CStartU3Eb__2_1_m877EE3EA1E44ADC1DF7114E43F6AD55A99111F1A,
+	SphereCommands_Start_mE10CDCEA6FAC4350A4ED51AFBAAD52FF2AC47833,
+	SphereCommands_OnSelect_m9689772ECEEEE6A491A66AE945C2198B83A28988,
+	SphereCommands_OnReset_m73F69610284DCFAB7F6C01A891F5E9CB5AE95440,
+	SphereCommands_OnDrop_mD9D090ED447F7CB9D37D1A6FCA0CD53A83239178,
+	SphereCommands__ctor_m35EB78A502550B38E5E9013AA90D487AB070FA3B,
+	SphereSounds_Start_m3EDAF6D1E9229F5D7C6C040BE5120DF0F37EFCAE,
+	SphereSounds_OnCollisionEnter_m9168ABD3C9E68877AADF93E508126BD6C7847F32,
+	SphereSounds_OnCollisionStay_m6D34995492A8C8A2AFC3935B383E30F9739B6F19,
+	SphereSounds_OnCollisionExit_m3485C4AECE56D7E80447BC02AEDAB2A72F481BE9,
+	SphereSounds__ctor_mC109D07FC23F29BAEC12103333083D6A9F1B073A,
+	TapToPlaceParent_OnSelect_mA6DFF7DC583683487C2E4FD33BAC73EF71EA1135,
+	TapToPlaceParent_Update_m8E81BA1CB0D0D0F039E1DBF7F1F9EF1678242B64,
+	TapToPlaceParent__ctor_m38D7263C49766C48D55F10B8827F7543BD8B6706,
 	WorldCursor_Start_mA505C46F7BB378DF88DC53AD01E1DDA522A56D5F,
 	WorldCursor_Update_m4B0864C2591CAA785E800E2EF6E88D71D9A15DD5,
 	WorldCursor__ctor_m7D7EDC543B0245D6116EB8BCDDA0C9B1F01C9BDC,
 };
-static const int32_t s_InvokerIndices[56] = 
+static const int32_t s_InvokerIndices[86] = 
 {
 	23,
 	23,
@@ -199,10 +289,10 @@ static const int32_t s_InvokerIndices[56] =
 	23,
 	23,
 	23,
-	1630,
+	1639,
 	23,
 	23,
-	1631,
+	1571,
 	95,
 	31,
 	95,
@@ -220,17 +310,17 @@ static const int32_t s_InvokerIndices[56] =
 	95,
 	23,
 	1123,
-	1279,
-	1279,
+	1281,
+	1281,
 	1123,
-	1632,
+	1640,
 	23,
 	23,
 	23,
 	23,
 	1122,
-	1278,
-	1278,
+	1280,
+	1280,
 	1122,
 	23,
 	129,
@@ -246,6 +336,36 @@ static const int32_t s_InvokerIndices[56] =
 	23,
 	23,
 	23,
+	4,
+	129,
+	14,
+	26,
+	23,
+	23,
+	23,
+	1571,
+	26,
+	23,
+	23,
+	1269,
+	23,
+	23,
+	3,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
 	23,
 	23,
 	23,
@@ -254,7 +374,7 @@ extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	56,
+	86,
 	s_methodPointers,
 	s_InvokerIndices,
 	0,
