@@ -21,6 +21,10 @@ Stretch goals:
 - [ ] Agent looks at user (billboard script).
 - [ ] Agent tags along (tagAlong script).
 
+Other for Embodied Conversational Agent:
+- [ ] Procedural animation
+    - [ ] Audio Visualization using particles
+    
 
 ## 7. ModelExplorer (Holotoolkit) - Unity2017.4
 [MR Input 210-Gaze Tutorial](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-210) For some reason, Unity2019 projects are not deploying, so I started this project with Unity2017.4LTS. This is the tutorial from Microsoft https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-210. It took me forever to get through because many of the assets were missing and the videos dont match the actual instruction and required assets. Many of the scripts needed some kind of debugging. Learned about the billboard and tag-along scripts, which could be useful later on for my agent.
